@@ -136,11 +136,7 @@ Sitarama Raju,1000
 для читання файлу функція total_salary використовує лише метод readline
 ми поки що не використовуємо менеджер контексту with"""
 
-<<<<<<< HEAD
 path = r'.\Python_Core\06\6.1.txt'
-=======
-path = r'.\Python_Core\06\text.txt'
->>>>>>> 468b73ebd807a213cc9fa5e2472c6502c65fd074
 
 def total_salary(path):
     file = open(path, 'r')
