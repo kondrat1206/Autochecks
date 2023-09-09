@@ -1,3 +1,5 @@
+import pickle
+
 class Person:
     def __init__(self, name: str, email: str, phone: str, favorite: bool):
         self.name = name
